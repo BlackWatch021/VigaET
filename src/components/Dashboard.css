@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .dashboard_wrapper>h1{
@@ -134,8 +135,43 @@ margin-left: 0px;
 .testing_link{
     margin-right: 20px;
     text-decoration: none;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     color: black;
     padding: 9px 30px;
     font-weight: 900;
+}
+.testing_link1{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+.footer{
+    position:fixed;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+}
+
+footer{
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 78px;
+}
+.user_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_name{
+    margin-right: 20px;
+}
+.user_span{
+    text-decoration: none;
+}
+.user_span>span:nth-child(3){
+    margin-left: 40px;
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.5);
 }
