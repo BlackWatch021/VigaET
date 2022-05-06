@@ -1,0 +1,31 @@
+.header_wrapper{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(35, 37, 39, 1);
+    padding: 0px 50px;
+    cursor: default;
+}
+
+.search{
+    background-color: rgba(19, 20, 21, 1);
+    width: 500px;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.search>span{
+    margin-left: 10px;
+}
+.search_logo{
+    width: 15px;
+    height: 15px;
+}
+.search_span{
+    font-size: 10pt;
+    color: rgba(255, 255, 255, 0.5);
+}
