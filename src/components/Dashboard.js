@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './Dashboard.css'
 
 const Dashboard = () => {
@@ -13,12 +14,47 @@ const Dashboard = () => {
                 </div>
                 <img src="./data/arrow.svg" alt="" />
             </div>
-            <div className="dashboard_container dashboard_container2">
-                <div className="class_detail_1 class_detail_11">
-                    <p>IOT System Architecture</p>
-                    <p>ECE1029</p>
+            <div id='dashboard_container2' className="dashboard_container ">
+                <div className="class_details">
+                    <div className="class_detail_1 class_detail_11">
+                        <p>IOT System Architecture</p>
+                        <p>ECE1029</p>
+                    </div>
+                    <img className='shrink' src="./data/arrow.svg" alt="" />
                 </div>
-                <img className='shrink' src="./data/arrow.svg" alt="" />
+                <div className="exam_details">
+                    <span className='testing_span1'>CAT 1</span>
+                    <div className='test_timing'>
+                        <span>22nd Dec 2020</span>
+                        <div className='exam_dot'></div>
+                        <span>9:00 am - 12:00 pm</span>
+                        <img className='test_notification' src="./data/notification_bell.svg" alt="" />
+                    </div>
+                    <Link className='testing_link' to='/'>completed</Link>
+                </div>
+
+
+                <div className="exam_details">
+                    <span className='testing_span1'>CAT 2</span>
+                    <div className='test_timing'>
+                        <span>12th Jan 2021</span>
+                        <div className='exam_dot'></div>
+                        <span>9:00 am - 12:00 pm</span>
+                        <img className='test_notification' src="./data/notification_bell.svg" alt="" />
+                    </div>
+                    <Link className='testing_link' to='/'>completed</Link>
+                </div>
+
+                <div className="exam_details">
+                    <span className='testing_span1'>Lab FAT</span>
+                    <div className='test_timing'>
+                        <span>22nd Mar 2021</span>
+                        <div className='exam_dot'></div>
+                        <span>9:00 am - 12:00 pm</span>
+                        <img className='test_notification' src="./data/notification_bell.svg" alt="" />
+                    </div>
+                    <Link className='testing_link' to='/'>completed</Link>
+                </div>
             </div>
         </div>
     )
