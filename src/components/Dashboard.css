@@ -30,7 +30,7 @@
 }
 
 .dashboard_container>img,.class_details>img{
-    margin-right: 20px;
+    margin-right: 30px;
     transform: rotate(180deg);
     cursor: pointer;
     width: 20px;
