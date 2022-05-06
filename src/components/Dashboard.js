@@ -40,9 +40,9 @@ const Dashboard = () => {
                         <span>12th Jan 2021</span>
                         <div className='exam_dot'></div>
                         <span>9:00 am - 12:00 pm</span>
-                        <img className='test_notification' src="./data/notification_bell.svg" alt="" />
+                        <img className='test_notification' src="./data/notification_bell1.svg" alt="" />
                     </div>
-                    <Link className='testing_link testing_link1' to='/'>Join Exam</Link>
+                    <Link className='testing_link testing_link1' to='/check'>Join Exam</Link>
                 </div>
 
                 <div className="exam_details">
@@ -51,7 +51,7 @@ const Dashboard = () => {
                         <span>22nd Mar 2021</span>
                         <div className='exam_dot'></div>
                         <span>9:00 am - 12:00 pm</span>
-                        <img className='test_notification' src="./data/notification_bell.svg" alt="" />
+                        <img className='test_notification' src="./data/notification_bell1.svg" alt="" />
                     </div>
                     <Link className='testing_link' to=''>Yet to start</Link>
                 </div>
@@ -63,12 +63,12 @@ const Dashboard = () => {
                 <Link to=''>Take Demo Exam</Link>
                 <div className="user_details">
                     <div className="user_name">
-                        <Link className='user_span' to='/'>
+                        <Link className='user_span' to='/settings'>
                             <span>Samuel Doe</span><br />
                             <span>18BIS1241</span>
                         </Link>
                     </div>
-                    <Link to='/'><img src="./data/user_1.png" alt="" /></Link>
+                    <Link to='/settings'><img src="./data/user_1.png" alt="" /></Link>
                 </div>
             </footer>
         </div>

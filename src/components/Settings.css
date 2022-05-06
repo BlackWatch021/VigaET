@@ -1,0 +1,173 @@
+.settings_wrapper{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    cursor: default;
+}
+.settings_container{
+    width: 90%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user_entered{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    /* background-color: pink; */
+}
+
+.user_entered_details{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_entered_img{
+    transform: rotate(270deg);
+    margin-right: 10px;
+}
+
+.user_name1{
+    font-size: 22pt;
+    margin-left: 20px;
+    font-weight: 800;
+}
+
+.user_id{
+    font-size: 10pt;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+.edit_profile{
+   display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit_profile>img{
+    margin-right: 15px;
+}
+
+.editing_profile{
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.setting_1{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.setting_1_part{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: pink; */
+    margin-top: 50px;
+}
+
+.setting_1_heading{
+    font-size: 18pt;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.setting1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(35, 37, 39, 1);
+    padding: 25px 0px;
+}
+
+
+
+.setting1::before{
+    position: absolute;
+    top:97%;
+    left: 50px;
+    content: '';
+    height: 1px;
+    width: 90%;
+    border-bottom: solid 2px white;
+}
+
+.setting11::before{
+    border: none;
+}
+
+.setting1>img{
+    margin-right: 70px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.settings_name{
+    margin-left: 30px;
+}
+
+
+.toggle_button{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    /* background-color: blue; */
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.toggle_ball{
+    position: absolute;
+    top: -1px;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border:2px solid white;
+    border-left: none;
+}
+
+
+.toggle_button1{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 70px;
+    cursor: pointer;
+}
+.toggle_ball1{
+    position: absolute;
+    top: 1px;
+    left: 50%;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgba(35, 37, 39, 1);
+    margin-bottom:10px ;
+}
+
+.settings_link{
+    margin-right: 40px;
+}

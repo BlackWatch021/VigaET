@@ -8,6 +8,8 @@ import Carousel3 from './components/carousel/Carousel_3'
 import Carousel4 from './components/carousel/Carousel_4'
 import Login from './components/Login'
 import Dashboard from './components/Dashboard';
+import Settings from './components/Settings';
+import Check from './components/Check'
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
           <Route path='/intro3' element={<Carousel3 />} />
           <Route path='/intro4' element={<Carousel4 />} />
           <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/settings' element={<Settings />} />
+          <Route path='/check' element={<Check />} />
         </Routes>
       </Router>
       {/* <Home /> */}
